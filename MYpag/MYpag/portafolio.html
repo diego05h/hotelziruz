@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Asegúrate de vincular tu archivo CSS aquí -->
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    align-items: center;
+    text-align: center;
+}
+
+header {
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fhotelesfamilianumerosa.com%2Fhoteles%2Fque-debe-tener-un-hotel-5-estrellas%2F&psig=AOvVaw2epPiObYCEPaWkq63smvqU&ust=1724856963906000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLDrtJ-3lYgDFQAAAAAdAAAAABAE);
+    color: #fff;
+    width: 100%;
+    height: 80px;
+   padding: 40px;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+#hero {
+    background: #f4f4f4;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+</style>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <nav>
+            <a href="index.html"> Inicio</a>
+            <a href="#projects">Proyectos</a>
+            <a href="#skills">Habilidades</a>
+            <a href="#contact">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- Sección de presentación -->
+    <section id="hero">
+        <h1>Tu Nombre</h1>
+        <p>Desarrollador Web</p>
+    </section>
+
+    <!-- Sección "Sobre mí" -->
+    <section id="about">
+        <h2>Sobre mí</h2>
+        <p>Soy un desarrollador web apasionado por crear soluciones digitales innovadoras. Tengo experiencia en HTML, CSS, JavaScript, y otras tecnologías.</p>
+    </section>
+
+    <!-- Sección de Proyectos -->
+    <section id="projects">
+        <h2>Proyectos</h2>
+        <div class="project">
+            <h3>Proyecto 1</h3>
+            <p>Descripción breve del proyecto. <a href="#">Ver más</a></p>
+        </div>
+        <div class="project">
+            <h3>Proyecto 2</h3>
+            <p>Descripción breve del proyecto. <a href="#">Ver más</a></p>
+        </div>
+        <!-- Añade más proyectos según sea necesario -->
+    </section>
+
+    <!-- Sección de Habilidades -->
+    <section id="skills">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <!-- Añade más habilidades según corresponda -->
+        </ul>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contact">
+        <h2>Contacto</h2>
+        <form action="#" method="post">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Tu Nombre. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

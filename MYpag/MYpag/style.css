@@ -1,0 +1,95 @@
+
+.carrusel{
+    display: flex;
+    width: 1000px;
+    height: 430px;
+    position: relative;
+    left: 130px;
+}
+.carrusel img{
+    width:0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease-in-out ;
+}
+.carrusel img:hover{
+    cursor: crosshair;
+    width: 600px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FFFF;
+}
+header {
+    background-color: black;
+    height: 80px; 
+    padding: 80px;
+    border-radius: 30px;
+}
+.book .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    align-items: center; position: relative;
+    left: 80px;
+  }
+  
+
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 20px;
+    font-family: fantasy;
+    letter-spacing: 5px;
+}
+h2{
+    color: rgb(7, 7, 7);
+    text-align: center;
+    font-family: cursive;
+    letter-spacing: 5px;
+
+}
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.nav-bar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.6s;
+}
+
+
+.nav-bar a:hover {
+    background-color: #230fd6;
+    border-radius: 40px;
+    
+}
+
+
+footer{
+    background-color: black;
+    height: 80px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+*{
+    margin: 0%;
+}
